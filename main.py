@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image
 
-# Software feito pra que baixe imagens em index of. inurl:"index of"
+# Software feito pra que baixe imagens em index of. intitle:"index of"
 URL = "https://pida.com.br/fotos/pida_noticias/2468/mg/"
 extensao = 'jpg'
 pasta_imagens = 'imagens'
